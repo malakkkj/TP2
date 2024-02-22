@@ -44,6 +44,17 @@ public class Etudiant {
     public void setNote(double note) {
         this.note = note;
     }
+    // Méthode de statistiques pour calculer la moyenne des notes des étudiants dans une liste
+    public static double calculerMoyenneNotes(List<Etudiant> etudiants) {
+        double sommeNotes = 0;
+        int nombreEtudiants = etudiants.size();
+        
+        for (Etudiant etudiant : etudiants) {
+            sommeNotes += etudiant.getNote();
+        }
+        
+        return sommeNotes / nombreEtudiants;
+    }
 
     // Méthode pour ajouter une note
     public void ajouterNote(double nouvelleNote) {

@@ -1,14 +1,14 @@
 public class Etudiant {
     // Attributs
     private String nom;
-    private int numeroEtudiant;
+    
     private double moyenne;
     private double note;
 
     // Constructeur
-    public Etudiant(String nom, int numeroEtudiant, double moyenne) {
+    public Etudiant(String nom, double moyenne) {
         this.nom = nom;
-        this.numeroEtudiant = numeroEtudiant;
+      
         this.moyenne = moyenne;
     }
 
@@ -21,13 +21,7 @@ public class Etudiant {
         this.nom = nom;
     }
 
-    public int getNumeroEtudiant() {
-        return numeroEtudiant;
-    }
-
-    public void setNumeroEtudiant(int numeroEtudiant) {
-        this.numeroEtudiant = numeroEtudiant;
-    }
+    
 
     public double getMoyenne() {
         return moyenne;
