@@ -52,9 +52,7 @@ public class Etudiant {
 
     // Méthode pour afficher les informations de l'étudiant
     public void afficherInformations() {
-        System.out.println("Nom de l'étudiant : " + nom);
-        System.out.println("Numéro d'étudiant : " + numeroEtudiant);
-        System.out.println("Moyenne de l'étudiant : " + moyenne);
+     
         System.out.println("Note de l'étudiant : " + note);
     }
 }
