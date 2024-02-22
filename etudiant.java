@@ -4,14 +4,14 @@ public class Etudiant {
     private int numeroEtudiant;
     private double moyenne;
     private double note;
-
+	private String Apogee;
     // Constructeur
     public Etudiant(String nom, int numeroEtudiant, double moyenne) {
         this.nom = nom;
         this.numeroEtudiant = numeroEtudiant;
         this.moyenne = moyenne;
     }
-
+	
     // Méthodes getters et setters pour nom, numéro étudiant, moyenne et note
     public String getNom() {
         return nom;
